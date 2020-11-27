@@ -3,12 +3,12 @@ body {
 }
 
 .nav {
-    height: 100px;
+    height: 80px;
     background-color: goldenrod;
 }
 
 .adminnav {
-    height: 100px;
+    height: 80px;
     background-color:gray;
 }
 
@@ -17,15 +17,15 @@ h1 {
     margin-bottom: 30px;
     text-align: center;
     font-size: 7em;
-    color: gray;
+    color: #FFB6C1;
     font-family: sans-serif;
     opacity: 70%;
 }
 
 a {
-    line-height: 100px;
+    line-height: 80px;
     font-family: sans-serif;
-    color: white;
+    color: #FFB6C1;
     margin: 7%;
     font-size: 2em;
 }
