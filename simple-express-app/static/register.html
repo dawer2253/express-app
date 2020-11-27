@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <a href="/main">Main</a>
+            <a href="/register">Register</a>
+            <a href="/login">Login</a>
+            <a href="/admin">Admin</a>
+        </div>
+        <div class="content">
+            <h1>Register</h1>
+            <form action="/registerForm" method="POST">
+                <label for="login">Login:</label>
+                <input type="text" id="login" name="login" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <label for="age">Age:</label>
+                <select id="age" name="age">
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                </select>
+                <br>
+                <label for="student">Student?:</label>
+                <input type="checkbox" id="student" name="student">
+                <br>
+                <label>Gender: </label>
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <br>
+                <input type="Submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

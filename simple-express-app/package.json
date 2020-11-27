@@ -1,0 +1,19 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "Simple Express App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "express-app"
+  },
+  "author": "Dawid Patko",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
