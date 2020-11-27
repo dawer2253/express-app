@@ -201,19 +201,19 @@ let id = 6;
 
 let users = [
     {
-        id: 1, login: "AAA", password: "PASS1", age: 10, student: true, gender: "male",
+        id: 1, login: "Example1", password: "PASS1", age: 17, student: true, gender: "male",
     },
     {
-        id: 2, login: "BBB", password: "PASS2", age: 12, student: false, gender: "female",
+        id: 2, login: "Example2", password: "PASS2", age: 14, student: false, gender: "female",
     },
     {
-        id: 3, login: "CCC", password: "PASS3", age: 9, student: true, gender: "male",
+        id: 3, login: "Example3", password: "PASS3", age: 13, student: true, gender: "male",
     },
     {
-        id: 4, login: "DDD", password: "PASS4", age: 14, student: false, gender: "female",
+        id: 4, login: "Example4", password: "PASS4", age: 22, student: false, gender: "female",
     },
     {
-        id: 5, login: "EEE", password: "PASS5", age: 3, student: true, gender: "male",
+        id: 5, login: "Example5", password: "PASS5", age: 21, student: true, gender: "male",
     },
 ];
 
